@@ -1,0 +1,238 @@
+#container {
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(0, 170, 255);
+    display: inline-block;
+    font-family: arial, helvetica, sans-ser;
+}
+
+#form {
+    width: 85%;
+    height: 100%;
+    background-color: white;
+    margin-left: 150px;
+    display: inline-block;
+}
+
+label {
+    color: rgb(189, 189, 189);
+    font-size: small;
+    font-weight: bold;
+}
+h4{
+    margin-top: 0px;
+    padding-top: 22px;
+    padding-left: 34px;
+    font-size: larger;
+    color: rgb(0, 170, 255);
+    
+}
+hr {
+    width: 92%;
+    background-color: lightgray;
+    height: 0.5px;
+    border: none;
+    
+}
+#details {
+    width: 90%;
+    margin: auto;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+label {
+    display: block;
+}
+
+#details {
+    display: inline-block;
+}
+
+
+#fname {
+    display: inline-block;
+
+}
+#fname:hover {
+    color: rgb(0, 170, 255);
+}
+
+#lname {
+    display: inline-block;
+}
+
+#email {
+    display: inline-block;
+}
+
+#user {
+    display: inline-block;
+
+}
+
+#country {
+    display: inline-block;
+    width: 280px;
+}
+select {
+    border: none;
+    border-bottom: 2px solid ;
+    border-color: lightgray;
+    padding: 5px;
+    font-size: large;
+    outline: transparent;
+}
+select:focus {
+    border-color: rgb(0, 170, 255);
+}
+
+
+#location {
+    display: inline-block;
+    margin-left: 99px;
+    width: 180px;
+}
+
+#state {
+    display: inline-block;
+}
+#cities {
+    display: inline-block;
+    width: 100px;
+}
+#city {
+    display: inline-block;
+}
+
+#pnumber {
+    display: inline-block;
+}
+
+#refCode {
+    display: inline-block;
+}
+
+button {
+    display: inline-block;
+}
+
+#reset {
+    display: inline-block;
+    border: none;
+    background-color: white;
+    font-size: medium;
+    margin-right: 500px;
+    color: rgb(189, 189, 189);
+    font-weight: bold;
+}
+#reset:hover {
+    color: black;
+}
+
+#continue {
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(0, 170, 255);
+    color: white;
+    width: 120px;
+    height: 30px;
+    box-shadow: 1px 1px 3px gray;
+    text-decoration: none;
+    padding: 10px;
+    font-size: smaller;
+}
+#continue:hover {
+    color: rgb(0, 170, 255);
+    border: 1px;
+    background-color: white;
+}
+
+.row1{
+    display: block;
+    margin-bottom: 50px;
+}
+
+.row2 {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.row3 {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.row4 {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.row5 {
+    display: block;
+}
+
+input {
+    margin-right: 100px;
+}
+
+input:focus {
+    width: 275px;
+    border: none;
+    border-bottom: 2px solid ;
+    border-color: rgb(0, 170, 255);
+    margin-top: 15px;
+}
+
+input:hover {
+    width: 275px;
+    border: none;
+    border-bottom: 2px solid ;
+    border-color: rgb(0, 170, 255);
+    margin-top: 15px;    
+}
+
+.input {
+    width: 275px;
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid ;
+    border-color: lightgray;
+    margin-top: 10px;
+    font-size: large;
+    outline: transparent;
+}
+
+.inputN {
+    width: 275px;
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid ;
+    border-color: lightgray;
+    margin-top: 10px;    
+    font-size: large;
+    outline: transparent;
+}
+
+.inputL {
+    width: 140px;
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid ;
+    border-color: lightgray;
+    margin-top: 10px;
+    margin-right: 30px; 
+    font-size: large;  
+    outline: transparent;
+}
+::placeholder {
+    color: rgb(189, 189, 189);
+}
+
+#DisplayDetails {
+    margin: 0px;
+    height: 500px;
+    width: 350px;
+    display: inline-block;
+    flex: 1; 
+    align-self: flex-start;
+}

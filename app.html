@@ -1,0 +1,98 @@
+<!--Christian Anyimadu 577920, Dylan cheballah 577424, Shayur Chaithram 577312, Leslie Khanye 577888-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    
+    <main id="container"> 
+        <form action="" id="form">
+            <h4>Basic Details</h4>
+            <hr>
+            <div id="details">
+                <div class="row1">
+                    <div id="fname">
+                        <label for="">First Name</label>
+                        <input  type="text" class="inputN" id="firstName" required>
+                    </div>
+
+                    <div id="lname">
+                            <label for="">Last Name</label>
+                            <input type="text" class="inputN" id="lastName" required>
+                    </div>    
+                </div>
+                    
+                    <div class="row2">
+                        <div id="email">
+                            <label for="">Email ID</label>
+                            <input type="email" class="input" id="emailID" required>
+                        </div>
+                        
+                        <div id="user">
+                            <label for="">Your User ID</label>
+                            <input type="text" class="input" id="userID" required>
+                        </div>                    
+                    </div>
+
+                    <div class="row3">
+                        <label for="country">Country</label>
+                        <select id="country" onchange="updateStates()"  required>
+                          <option value="">Select Country</option>
+                          <option value="SouthAfrica">South Africa</option>
+                          <option value="India">India</option>
+                          <option value="USA">USA</option>
+                          <option value="Canada">Canada</option>
+                        </select>
+                       
+
+                        <div id="location">
+                            <label for="state">State</label>
+                            <select id="state" onchange="updateCities()" required>
+                              <option value="">Select State</option>
+                            </select>
+                        </div>
+                        
+
+                        <div id="cities">
+                            <label for="city">City</label>
+                            <select id="city" required>
+                                  <option value="">Select City</option>
+                            </select>
+                        </div>
+                        
+                        
+                    </div>
+
+                    <div class="row4">
+                        <div id="pnumber">
+                            <label for="">Phone Number</label>
+                            <input type="text" class="input" id="pnumberID" required>
+                        </div>
+
+                        <div id="refCode">
+                            <input type="text" placeholder="Reference Code" class="input" id="refCodeID" required>
+                        </div>
+                    </div>
+
+                    <div class="row5">
+                        <button id="reset">Reset All</button>
+                        <button id = "continue" type="submit">Continue</button>
+                    </div>
+
+
+            
+                </div>            
+        
+        </form>
+
+    </main>
+    <aside id="DisplayDetails"></aside> 
+
+    <script src="app.js"></script>   
+</body>
+</html>
